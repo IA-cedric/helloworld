@@ -16,17 +16,23 @@ public class testavancer {
 
 	
 	public static void tournerD() {
-		m1.startSynchronization();
 		m2.flt();
-		m1.rotate(360);
-		m1.endSynchronization();
-		
+		m1.rotate(420);
+
 	}
 	public static void tournerG() {
-		m1.startSynchronization();
 		m1.flt();
-		m2.rotate(360);
-		m1.endSynchronization();
+		m2.rotate(420);
+
+	}
+	public static void demiTG(){
+		m1.flt();
+		m2.rotate(830);
+		
+	}
+	public static void demiTD() {
+		m2.flt();
+		m1.rotate(830);
 	}
 	public static void avancer1() {
 		m1.startSynchronization();
@@ -105,9 +111,8 @@ public class testavancer {
 		avancer1();
 		tournerD();
 		tournerD();
-		vitesse();
 		avancer1();
-		
+		demiTD();
 		arretT();
 			
 		
