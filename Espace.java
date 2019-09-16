@@ -1,3 +1,4 @@
+/*Bonjour*/
 import java.util.Random;
 public class Espace {
 	private int largeur;

@@ -65,4 +65,5 @@ public class Chenille {
 	public String toString() {
 		return "Chenille("+taille+"/"+caseOccupe.length+") : "+Arrays.deepToString(caseOccupe);
 	}
+	/*marion la pute*/
 }
